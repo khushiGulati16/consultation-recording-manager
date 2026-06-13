@@ -56,27 +56,4 @@ App (root state: recordings, search, filters, selected, modals)
 
 ---
 
-## 6. Future Improvements
 
-1. **Real Whisper API integration** for transcription (Hindi + English + Hinglish support)
-2. **Audio/video player** with waveform seek bar inside the transcript modal
-3. **Backend persistence** — Supabase/Firebase for recordings metadata + file storage
-4. **Authentication** — separate views for Admin, Astrologer, and Client
-5. **PDF export** of consultation summary for clients (WhatsApp-shareable)
-6. **Pagination/virtualization** for large recording libraries
-7. **Real charting library** (Recharts) once analytics needs grow beyond 2 simple breakdowns
-8. **Automated tests** (Vitest + React Testing Library) for upload flow and filters
-
----
-
-## 7. Time Allocation (approx., for 48hr window)
-
-- Planning & architecture: 2 hrs
-- Core UI (list, cards, filters, search): 6 hrs
-- Modals (upload + transcript viewer): 6 hrs
-- Analytics tab: 3 hrs
-- Mock data & domain research (astrology terms): 2 hrs
-- Styling polish & responsiveness: 4 hrs
-- Documentation (README, notes, AI usage): 2 hrs
-- Demo video recording: 1 hr
-- Buffer/testing: remaining time
